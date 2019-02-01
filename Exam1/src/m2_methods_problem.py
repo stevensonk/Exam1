@@ -91,7 +91,7 @@ def test_count_primes():
     return
 
 
-def count_primes(m,n):
+def count_primes(m, n):
     """
     #    What comes in:
     #      -- A positive integer m.
@@ -134,7 +134,7 @@ def count_primes(m,n):
     ################################################################################
 
     count = 0
-    for k in range (n - m + 1):
+    for k in range(n - m + 1):
         if is_prime(k + m) is True:
             print(k + m)
             count = count + 1
@@ -166,7 +166,7 @@ def test_multiply_primes():
     print('Actual output = ', multiply_primes(2, 8))
 
 
-def multiply_primes(m,n):
+def multiply_primes(m, n):
     """
        #    What comes in:
        #      -- A positive integer m.
